@@ -1,6 +1,7 @@
 package util;
 
 public abstract class Algoritmos {
+	
 	public static int fibonacci(int numero) {
 		int num1 = 0;
 		int num2 = 1;
@@ -13,4 +14,12 @@ public abstract class Algoritmos {
 		}
 		return num2;
 	}
+	public static int factorial(int numero) {
+		int num1 = numero;
+		for (int i = 1; i < numero; i++) {
+			num1 = num1 * i;
+		}
+		return num1;
+	}
+	
 }
