@@ -21,5 +21,8 @@ public abstract class Algoritmos {
 		}
 		return num1;
 	}
-	
+	public static boolean numprimo(int numero) {
+
+		return true;
+	}
 }
